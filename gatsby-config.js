@@ -54,10 +54,17 @@ module.exports = {
       options: {
         fonts: [
           `roboto mono`,
-          `source sans pro\:300,400,400i,700` // Потом сюда посмотреть!
+          `muli sans-serif \:300,400,400i,700` // Потом сюда посмотреть - отсюда идет в настройки темы!
         ],
         display: 'swap'
       }
+    },
+
+    {
+      resolve: `gatsby-plugin-styled-components`,
+      options: {
+        // Add any options here
+      },
     },
 
   ],
